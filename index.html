@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+	<link rel="stylesheet" href="styles.css" />
+	<link rel="stylesheet" href="./media.css">
+
+	<title>Party Time</title>
+</head>
+
+<body>
+	<header class="header" id="header">
+		<nav class="nav container">
+			<a href="./index.html" class="nav__logo"> Party Time </a>
+			<div class="nav__menu" id="nav-menu">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="./index.html" class="nav__link active-link">Bosh</a>
+					</li>
+					<li class="nav__item">
+						<a href="#celebrate" class="nav__link">Biz haqimizda</a>
+					</li>
+					<li class="nav__item">
+						<a href="#gift" class="nav__link">Xizmatlar</a>
+					</li>
+					<li class="nav__item">
+						<a href="#new" class="nav__link">Paketlar</a>
+					</li>
+				</ul>
+
+				<div class="nav__close" id="nav-close">
+					<i class="bx bx-x"></i>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<main class="main">
+		<section class="home" id="home">
+			<div class="home__container container grid">
+				<img src="img/home.jpg" alt="" class="home__img" />
+
+				<div class="home__data">
+					<h1 class="home__title">
+						Bu bazm va tadbirlarnilarni <br> tashkillashtiruvchi kompaniya
+					</h1>
+					<p class="home__description">
+						<strong>Party Time</strong> sizning ishonchli xizmatingizda! Bizda barcha turdagi bazmlar uchun
+						xizmatlar mavjud!
+					</p>
+					<a href="#celebrate" class="button">Ko'proq bilish</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="giving section container">
+			<h2 class="section__title">
+				Bizning kompaniya <br />
+				tezkor va ishonchli!
+			</h2>
+
+			<div class="giving__container grid">
+				<div class="giving__content">
+					<img src="img/giving1.png" alt="" class="giving__img" />
+					<h3 class="giving__title">Bazm ichimliklari</h3>
+					<p class="giving__description">Bizda bazmlar uchun maxsus ichimliklar ahm mavjud.</p>
+				</div>
+
+				<div class="giving__content">
+					<img src="img/giving2.png" alt="" class="giving__img" />
+					<h3 class="giving__title">Barchasi o'z vaqtida</h3>
+					<p class="giving__description">Bizda hammasi o'z vaqtida bo'lishiga alohida etibor beriladi.</p>
+				</div>
+
+				<div class="giving__content">
+					<img src="img/giving3.png" alt="" class="giving__img" />
+					<h3 class="giving__title">Bejirim bezaklar</h3>
+					<p class="giving__description">
+						Bizda dekoratsiyalarda alohida e'tibor beriladi.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="celebrate section container" id="celebrate">
+			<div class="celebrate__container grid">
+				<div class="celebrate__data">
+					<h2 class="section__title celebrate__title">
+						Party Time
+					</h2>
+					<p class="celebrate__description">Bu bazm va tadbirlarnilarni qiluvchi kompaniya. Eng zo'r bazmlar
+						faqat bizda!
+						Bizda tematik tadbirlar, chodir bazmlar, maxsus bayramlar, o’yin kulgu tadbirlari va boshqa
+						xizmatlar mavjud.
+					</p>
+					<a href="#new" class="button">Buyurtma berish</a>
+				</div>
+
+				<img src="img/celebrate.jpg" alt="" class="celebrate__img" />
+			</div>
+		</section>
+
+		<section class="gift section container" id="gift">
+			<h2 class="section__title">Ajoyib tanlovlar</h2>
+
+			<div class="gift__container grid">
+				<article class="gift__card">
+					<img src="img/gift1.png" alt="" class="gift__img" />
+					<i class="bx bx-heart gift__icon"></i>
+
+					<h3 class="gift__price">$150</h3>
+					<span class="gift__title">Oddiy bazm <br> Bronza paketida</span>
+				</article>
+
+				<article class="gift__card">
+					<img src="img/gift2.png" alt="" class="gift__img" />
+					<i class="bx bx-heart gift__icon"></i>
+
+					<h3 class="gift__price">$220</h3>
+					<span class="gift__title">Maxsus kun <br> Bronza paketida</span>
+				</article>
+
+				<article class="gift__card">
+					<img src="img/gift3.png" alt="" class="gift__img" />
+					<i class="bx bx-heart gift__icon"></i>
+
+					<h3 class="gift__price">$480</h3>
+					<span class="gift__title">Tug'ilgan kun <br> Kumush paketida</span>
+				</article>
+				<article class="gift__card">
+					<img src="img/gift5.png" alt="" class="gift__img" />
+					<i class="bx bx-heart gift__icon"></i>
+
+					<h3 class="gift__price">$400</h3>
+					<span class="gift__title">Tadbirlar <br> Kumush paketida</span>
+				</article>
+			</div>
+		</section>
+
+		<section class="new section container" id="new">
+			<h2 class="section__title">Paketlar</h2>
+
+			<div class="new__container">
+				<div class="swiper new-swiper">
+					<div class="swiper-wrapper">
+						<article class="new__card swiper-slide">
+							<div class="new__overlay"></div>
+
+							<img src="img/new1.svg" alt="" class="new__img" />
+							<h3 class="new__price">$200</h3>
+							<span class="new__title">Bronza <br><br> • Xona bezaklari <br>
+								• Stol bezaklari <br>
+								• DJ hizmati <br>
+								• Sovuq taomlar</span>
+
+							<button class="button new__button">
+								<i class="bx bx-heart new__icon"></i>
+							</button>
+						</article>
+
+						<article class="new__card swiper-slide">
+							<div class="new__overlay"></div>
+
+							<img src="img/new2.svg" alt="" class="new__img" />
+							<h3 class="new__price">$400</h3>
+							<span class="new__title">Kumush <br><br> • Xona bezaklari <br>
+								• Stol bezaklari <br>
+								• DJ hizmati <br>
+								• Sovuq taomlar <br>
+								• Taklifnomani loyihalash <br>
+								• Jonli ijro guruhi <br>
+								• Turli sharbatlar</span>
+
+							<button class="button new__button">
+								<i class="bx bx-heart new__icon"></i>
+							</button>
+						</article>
+
+						<article class="new__card swiper-slide">
+							<div class="new__overlay"></div>
+
+							<img src="img/new3.svg" alt="" class="new__img" />
+							<h3 class="new__price">$600</h3>
+							<span class="new__title">Oltin <br><br>
+								• Bronza takliflari <br>
+								• Kumush takliflari <br>
+								• To'liq mukammallikni ta'minlash uchun ishtirok etadigan xodimlar <br>
+								• Mehmonlar uchun turar joy topish, transportni bron qilish <br>
+								• Jonli ijro guruhi va fokuschi <br>
+								• Issiq va sovuq taomlar. Turli sharbatlar</span>
+
+							<button class="button new__button">
+								<i class="bx bx-heart new__icon"></i>
+							</button>
+						</article>
+					</div>
+
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="message section container">
+			<div class="message__container grid">
+				<form action="" class="message__form">
+					<h2 class="message__title">
+						Biz bilan bog'laning <br />
+						Aloqaga chiqing
+					</h2>
+					<input type="email" placeholder="Xabar qoldiring" class="message__input" />
+					<button class="button message__button">Xabar yuboring</button>
+				</form>
+
+				<img src="img/message.jpg" alt="" class="message__img" />
+			</div>
+		</section>
+		<section class="gift section container" id="gift">
+			<h2 class="section__title">Boshqa xizmatlar</h2>
+
+			<div class="gift__container2 grid2">
+				<article class="gift__card2">
+					<img src="img/image 1.png" alt="" class="gift__img2" />
+					<h3 class="gift__price2">Xayriya jamg’armalari</h3>
+				</article>
+
+				<article class="gift__card2">
+					<img src="img/image 2.png" alt="" class="gift__img2" />
+					<h3 class="gift__price2">Xayriya jamg’armalari</h3>
+				</article>
+
+				<article class="gift__card2">
+					<img src="img/image 3.png" alt="" class="gift__img2" />
+					<h3 class="gift__price2">Xayriya jamg’armalari</h3>
+				</article>
+				<article class="gift__card2">
+					<img src="img/email_3847401.png" alt="" class="gift__img2" />
+					<h3 class="gift__price2">Xayriya jamg’armalari</h3>
+				</article>
+				<article class="gift__card2">
+					<img src="img/image 5.png" alt="" class="gift__img2" />
+					<h3 class="gift__price2">Xayriya jamg’armalari</h3>
+				</article>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer section">
+		<div class="footer__container container grid">
+			<div>
+				<a href="./index.html" class="footer__logo">
+					Party Time
+				</a>
+
+				<p class="footer__description">
+					Bizda faqat <br />
+					eng zo'rlari!
+				</p>
+			</div>
+
+			<div>
+				<h3 class="footer__title">Xizmatlarimiz</h3>
+
+				<ul class="footer__links">
+					<li>
+						<a href="#" class="footer__link">Narxlar</a>
+					</li>
+					<li>
+						<a href="#" class="footer__link">Chegirmalar</a>
+					</li>
+					<li>
+						<a href="#" class="footer__link">Boshqa ma'lumotlar</a>
+					</li>
+				</ul>
+			</div>
+
+			<div>
+				<h3 class="footer__title">Support</h3>
+
+				<ul class="footer__links">
+					<li>
+						<a href="#" class="footer__link">FAQs</a>
+					</li>
+					<li>
+						<a href="#" class="footer__link">Support center</a>
+					</li>
+					<li>
+						<a href="#" class="footer__link">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+
+			<div>
+				<h3 class="footer__title">Biz bu yerdamiz</h3>
+
+				<div class="footer__aviables">
+					<img src="img/aviable1.png" alt="" class="footer__aviable-img" />
+					<img src="img/aviable2.png" alt="" class="footer__aviable-img" />
+				</div>
+			</div>
+
+			<img src="img/footer1.png" alt="" class="footer__img1" />
+			<img src="img/footer2.png" alt="" class="footer__img2" />
+		</div>
+
+		<span class="footer__copy">&#169; Blackout. All rigths reserved</span>
+	</footer>
+	<a href="./boglanish.html">
+		<div class="boglanishBtn">
+			<img src="./img/🦆 icon _Comment Dots_.png" alt="">
+		</div>
+	</a>
+
+</body>
+
+</html>
